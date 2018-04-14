@@ -17,10 +17,6 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 
-[//]: # (Image References)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
-
 ---
 
 ### Reflection
@@ -28,25 +24,25 @@ The goals / steps of this project are the following:
 ### 1. Describe the pipeline.
 
 My pipeline consisted of 6 steps. 
-1.change the img to hsv color space
+* 1.change the img to hsv color space<br>
 <img src="examples/step01_img.jpg" width="480" alt="step01_img" />
 
-2.modify yellow and white pixels to white and else pixels to black
+* 2.modify yellow and white pixels to white and else pixels to black<br>
 <img src="examples/step02_h_mask.jpg" width="480" alt="step02_h_mask" />
 
-3.get the gaussian_blur img
+* 3.get the gaussian_blur img<br>
 <img src="examples/step05_gaussian_blur.jpg" width="480" alt="step05_gaussian_blur" />
 
-4.get the edge of the img
+* 4.get the edge of the img<br>
 <img src="examples/step06_canny.jpg" width="480" alt="step06_canny" />
 
-5.clip the img
+* 5.clip the img<br>
 <img src="examples/step07_region_of_interest_img.jpg" width="480" alt="step07_region_of_interest_img" />
 
-6.get the lines  
+* 6.get the lines<br>
 <img src="examples/step08_hough_lines_img.jpg" width="480" alt="step08_hough_lines_img" />
 
-7.get the result  
+* 7.get the result<br>
 <img src="examples/step09_weighted_img_img.jpg" width="480" alt="step09_weighted_img_img" />
 
 
@@ -69,14 +65,11 @@ draw_lines():
 ```
 
 
-![alt text][image1]
-
-
-### 2.Potential shortcomings with my pipeline
+### 2.Potential shortcomings with my pipeline.
 
 The output lines are not completing when line segments are in the pictures
 
 
-### 3. Possible improvements to my pipeline
+### 3. Possible improvements to my pipeline.
 
 Use the slope and the intercept to caclulate the lane lines
