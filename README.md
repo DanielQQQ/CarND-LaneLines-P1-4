@@ -29,25 +29,25 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 6 steps. 
 1.change the img to hsv color space
-[image1]: ./examples/step01_img.jpg "step01_img.jpg"
+<img src="examples/step01_img.jpg" width="480" alt="step01_img" />
 
 2.modify yellow and white pixels to white and else pixels to black
-[image1]: ./examples/step02_h_mask.jpg "step02_h_mask.jpg"
+<img src="examples/step02_h_mask.jpg" width="480" alt="step02_h_mask" />
 
 3.get the gaussian_blur img
-[image1]: ./examples/step05_gaussian_blur.jpg "step05_gaussian_blur.jpg"
+<img src="examples/step05_gaussian_blur.jpg" width="480" alt="step05_gaussian_blur" />
 
 4.get the edge of the img
-[image1]: ./examples/step06_canny.jpg "step06_canny.jpg"
+<img src="examples/step06_canny.jpg" width="480" alt="step06_canny" />
 
 5.clip the img
-[image1]: ./examples/step07_region_of_interest_img.jpg "step07_region_of_interest_img.jpg"
+<img src="examples/step07_region_of_interest_img.jpg" width="480" alt="step07_region_of_interest_img" />
 
 6.get the lines  
-[image1]: ./examples/step08_hough_lines_img.jpg "step08_hough_lines_img.jpg"
+<img src="examples/step08_hough_lines_img.jpg" width="480" alt="step08_hough_lines_img" />
 
 7.get the result  
-[image1]: ./examples/step09_weighted_img_img.jpg "step09_weighted_img_img.jpg"
+<img src="examples/step09_weighted_img_img.jpg" width="480" alt="step09_weighted_img_img" />
 
 
 draw_lines():
@@ -66,7 +66,7 @@ draw_lines():
                 if b > imshape[0] or b < (imshape[0] / 2):
                     cv2.line(img, (x1, y1), (x2, y2), color, thickness)
 
-```python
+```
 
 
 ![alt text][image1]
